@@ -7,6 +7,7 @@
 """
 
 import os
+os.environ["PYTHONMALLOC"] = "malloc"
 import asyncio
 import discord
 from discord.ext import commands
@@ -24,10 +25,12 @@ intents.members = True
 
 # ── Bot ────────────────────────────────────────────────────────
 bot = commands.Bot(
-    command_prefix="!",
+    command_prefix="k!",
     intents=intents,
     help_command=None,
     case_insensitive=True,
+    chunk_guilds_at_startup=False,  
+    max_messages=100                 
 )
 
 COGS = ["cogs.setup", "cogs.tickets"]
