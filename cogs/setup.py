@@ -28,7 +28,7 @@ ERROR_COLOR   = 0x000000
 WARN_COLOR    = 0x000000
 INFO_COLOR    = 0x000000
 
-BRAND_FULL = "Linuxx Ticketing • Powered by wmikon"
+BRAND_FULL = "KoboTiket • Powered by lingneisandevz"
 
 DEFAULT_BANNER = (
     "https://cdn.discordapp.com/attachments/1414256332592254986/"
