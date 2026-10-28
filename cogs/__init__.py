@@ -1,1 +1,1 @@
-# cogs package — Linuxx Ticketing • dev: wmikon
+# cogs package — KoboTiket • dev: lingneisandevz
