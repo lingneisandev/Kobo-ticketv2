@@ -1,1 +1,1 @@
-# utils package — Linuxx Ticketing • dev: wmikon
+# utils package — KoboTiket • dev: lingneisandevz
