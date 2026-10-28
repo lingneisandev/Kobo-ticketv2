@@ -71,8 +71,8 @@ CATEGORY_DESCRIPTIONS = {
     "Other":           "Something not listed above",
 }
 
-BRAND      = "Linuxx Ticketing"
-BRAND_FULL = "Linuxx Ticketing • Powered by wmikon"
+BRAND      = "KoboTiket"
+BRAND_FULL = "KoboTiket • Powered by Lingneisandevz"
 
 
 # ── Helpers ────────────────────────────────────────────────────
