@@ -1,6 +1,6 @@
 """
-Storage utility — Linuxx Ticketing
-Dev: wmikon
+Storage utility — KoboTiket
+Dev: lingneisandevz
 """
 import json
 import time
