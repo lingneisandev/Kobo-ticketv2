@@ -81,12 +81,12 @@ class SetupState:
         self.ticket_category: discord.CategoryChannel | None = None
         self.log_channel: discord.TextChannel | None         = None
         self.ticket_limit: int       = 3
-        self.panel_title: str        = "Support Center"
+        self.panel_title: str        = "Support Panel"
         self.panel_description: str  = "Click a button below to open a ticket."
         # Pre-filled defaults — server name/icon resolved at finish time
         self.author_name: str        = ""          # filled at finish with guild.name
         self.author_icon_url: str    = ""          # filled at finish with guild.icon
-        self.footer_text: str        = "Linuxx Ticketing"
+        self.footer_text: str        = "KoboTiket"
         self.footer_icon_url: str    = ""          # bot avatar, resolved at finish
         self.thumbnail_url: str      = ""          # guild icon, resolved at finish
         self.image_url: str          = DEFAULT_BANNER
@@ -216,7 +216,7 @@ class PanelTextModal(discord.ui.Modal, title="Panel Text Settings"):
 
 class FooterMediaModal(discord.ui.Modal, title="Footer, Thumbnail & Banner"):
     footer_text = discord.ui.TextInput(
-        label="Footer Text  (blank = 'Linuxx Ticketing')",
+        label="Footer Text  (blank = 'KoboTicket')",
         placeholder="Linuxx Ticketing",
         required=False,
         max_length=200,
