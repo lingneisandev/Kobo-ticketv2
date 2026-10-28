@@ -1,6 +1,6 @@
-# Linuxx Tickets
+# KoboTiket
 
-> **Developed by wmikon** - Discord ID: `1313132336799420468`
+> **Developed by lingneisandevz** - Discord ID: `-`
 
 A fully-featured Discord ticket bot built with **discord.py 2.7+** and **Python 3.10+**.  
 All panels, ticket messages, and replies use Discord's **Components V2** (`LayoutView` / `Container`) - no legacy embeds.
