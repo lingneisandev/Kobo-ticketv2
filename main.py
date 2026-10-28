@@ -1,7 +1,7 @@
 """
 ╔══════════════════════════════════════════════════╗
 ║          Linuxx Ticketing System                 ║
-║          Developed by wmikon                     ║
+║          Developed by lingdv                     ║
 ║          discord.py 2.7+ • Python 3.10+          ║
 ╚══════════════════════════════════════════════════╝
 """
@@ -49,8 +49,8 @@ async def on_ready():
     print(f"  Bot      : {bot.user}")
     print(f"  ID       : {bot.user.id}")
     print(f"  Servers  : {len(bot.guilds)}")
-    print(f"  Dev      : wmikon")
-    print(f"  Brand    : Linuxx Ticketing")
+    print(f"  Dev      : lingneisandevz")
+    print(f"  Brand    : Kobo Ticket Module")
     print("=" * 52)
     try:
         synced = await bot.tree.sync()
